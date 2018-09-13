@@ -3,11 +3,14 @@ import logo from './logo.svg';
 import CharacterCard from './CharacterCard';
 import './App.css';
 
+const word = "hello";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        hello world 5+5
+      <div>
+       {
+       Array.from(word).map((c, i) => <CharacterCard value={c} key={i}/>)
+       }
       </div>
     );
   }
