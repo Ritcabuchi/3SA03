@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import CharacterCard from './CharacterCard';
+import WordCard from './WordCard';
 import './App.css';
 
 const word = "hello";
@@ -9,11 +10,13 @@ class App extends Component {
     return (
       <div>
        {
-       Array.from(word).map((c, i) => <CharacterCard value={c} key={i}/>)
+       <WordCard value="hello"/>
        }
       </div>
     );
   }
 }
+
+ 
 
 export default App;
