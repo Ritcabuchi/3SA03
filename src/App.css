@@ -21,6 +21,7 @@
 .App-intro {
   font-size: large;
 }
+
 .card {
   display: inline-block;
   text-align: center;
@@ -30,6 +31,7 @@
   margin: 1em;
   user-select: none;
  }
+ 
  .activeCard {
   color: red;
   background: pink;
